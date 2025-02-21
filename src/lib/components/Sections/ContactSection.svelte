@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { Button, SectionHeadline } from '$components';
 
-	let contactName = $state('Fredrik');
-	let contactMail = $state('fredrik@digidevs.no');
-	let informationAboutProject = $state('Hei hei hei');
+	let contactName = $state('');
+	let contactMail = $state('');
+	let informationAboutProject = $state('');
 	let isFormInvalid = $state(false);
 	let isEmailSent = $state(false);
 	let showErrorMessage = $state(false);
